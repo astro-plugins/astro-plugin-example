@@ -13,14 +13,14 @@
     "test:e2e:debug": "playwright test --debug"
   },
   "dependencies": {
-    "@marp-team/marp-core": "^4.1.0",
+    "@marp-team/marp-core": "^4.2.0",
     "astro": "^5.16.11",
     "astro-marp": "0.1.2",
-    "astro-typst": "^0.12.1",
+    "astro-typst": "^0.12.3",
     "rehype-infographic": "file:../astro-infographic"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^4.2.3",
-    "@playwright/test": "^1.56.0"
+    "@playwright/test": "^1.57.0"
   }
 }
