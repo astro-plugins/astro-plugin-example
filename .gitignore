@@ -3,3 +3,4 @@ node_modules
 .astro
 .astro
 .vscode
+.playwright-mcp/

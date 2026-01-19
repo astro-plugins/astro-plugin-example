@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import { marp } from 'astro-marp';
 import { typst } from 'astro-typst';
+import rehypeInfographic from 'rehype-infographic';
 
 // https://astro.build/config
 export default defineConfig({
@@ -15,10 +16,9 @@ export default defineConfig({
       defaultTheme: 'am_blue'
     })
   ],
-  // Add .marp files as assets to prevent syntax highlighting errors
-  //assetsInclude: ['**/*.marp'],
-  // Disable syntax highlighting for .marp files
-  //markdown: {
-  //  syntaxHighlight: false
-  //}
+  markdown: {
+    // Temporarily disable syntax highlighting to test plugin
+    syntaxHighlight: false,
+    rehypePlugins: [[rehypeInfographic, {}]]
+  }
 });

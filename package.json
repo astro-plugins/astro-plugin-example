@@ -14,9 +14,10 @@
   },
   "dependencies": {
     "@marp-team/marp-core": "^4.1.0",
-    "astro": "^5.14.4",
-    "astro-marp": "github:astro-marp/astro-marp",
-    "astro-typst": "^0.12.1"
+    "astro": "^5.16.11",
+    "astro-marp": "0.1.2",
+    "astro-typst": "^0.12.1",
+    "rehype-infographic": "file:../astro-infographic"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^4.2.3",
